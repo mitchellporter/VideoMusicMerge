@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Consumables</key>
+	<dict/>
+	<key>Non-Consumables</key>
+	<array>
+		<string>com.semanticnotion.TapHunt.buyAmmo100</string>
+		<string>com.semanticnotion.christmastree.buytrack2</string>
+		<string>com.semanticnotion.christmastree.buytrack3</string>
+		<string>com.semanticnotion.christmastree.buytrack4</string>
+		<string>com.semanticnotion.christmastree.buytrack5</string>
+	</array>
+	<key>Subscriptions</key>
+	<dict/>
+</dict>
+</plist>

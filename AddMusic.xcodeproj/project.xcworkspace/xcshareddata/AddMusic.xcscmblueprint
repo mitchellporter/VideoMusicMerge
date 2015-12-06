@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "474ADED374747B0293CEC2723AAFB677AE9F9AE7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "d8fd9692-101d-ed43-aabb-49716e53995c++9967" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "d8fd9692-101d-ed43-aabb-49716e53995c++9967" : 0,
+    "474ADED374747B0293CEC2723AAFB677AE9F9AE7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6C9BDB8C-415D-4FB6-B608-1D81E6C13640",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "d8fd9692-101d-ed43-aabb-49716e53995c++9967" : "VideoMusicMerger\/Font_app\/MBProgressHUD\/",
+    "474ADED374747B0293CEC2723AAFB677AE9F9AE7" : "VideoMusicMerger\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AddMusic",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AddMusic.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/waqashassan\/videomusicmerger.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "474ADED374747B0293CEC2723AAFB677AE9F9AE7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.10.17\/svn\/LegalProof",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d8fd9692-101d-ed43-aabb-49716e53995c++9967"
+    }
+  ]
+}

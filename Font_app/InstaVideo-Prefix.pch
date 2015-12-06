@@ -1,0 +1,26 @@
+//
+// Prefix header for all source files of the 'Font_app' target in the 'Font_app' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+	#import "Helper.h"
+	#import <QuartzCore/QuartzCore.h>
+
+#endif
+
+
+#define productIndex 0
+
+#define AppoxeeID @"5222ad16d8e359.22733165"
+#define AppoxeeSecret @"5222ad16d8e516.72414429"
+
+#define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0ul)
+#define CLEAR_COLOR [UIColor clearColor]
