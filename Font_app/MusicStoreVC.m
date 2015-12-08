@@ -39,8 +39,7 @@
     // Do any additional setup after loading the view from its nib.
 	
 	mMusicInfoArray = [[NSMutableArray alloc] init];
-		//Clear separator color of tableview.
-		// _mTableView.separatorColor = [UIColor clearColor];
+
     _mTableView.backgroundView = nil;
     _mTableView.backgroundColor = [UIColor clearColor];
     
@@ -134,13 +133,6 @@
 //click on purchase this method call
 - (IBAction)purchaseClicked:(id)sender {
     packIndexPurchased = [sender tag];
-    
-//    //// debug
-//    [self selectSong:packIndexPurchased];
-//    return;
-//    ////
-    
-    
  
     if ([CommonMethods isSongAtIndexPurchased:packIndexPurchased]) {
         [self selectSong:packIndexPurchased];
@@ -165,19 +157,6 @@
     NSString *identifier;
     
     identifier = [CommonMethods identifierForSongAtIndex:index];
-//    switch (index) {
-//        case 0:
-//            identifier = [CommonMethods identifierForFirstSong];
-//            break;
-//        case 1:
-//            identifier = [CommonMethods identifierForSecondSong];
-//        default:
-//            break;
-//    }
-    
-    
-    
-    
     
     [[MKStoreManager sharedManager] buyFeature:identifier
                                     onComplete:^(NSString* purchasedFeature,
@@ -222,28 +201,6 @@
      }];
 
 }
-
-
-
-
-//- (void)backupPurchaseDonePack1 {
-//    [loadingView removeFromSuperview];
-//    [CommonMethods setFirstSongPurchased];
-//    [CommonMethods showAlertWithMessage:@"Restore Successful"];
-//}
-//
-//- (void)backupPurchaseDonePack2 {
-//    //remove the loadingview
-//    [loadingView removeFromSuperview];
-//    [CommonMethods setSecondSongPurchased];
-//    [CommonMethods showAlertWithMessage:@"Restore Successful"];
-//}
-//
-//- (void)backupPurchaseFailed {
-//    //remove the loadingView
-//    [loadingView removeFromSuperview];
-//    
-//}
 
 - (IBAction)restore:(id)sender {
 
@@ -293,17 +250,6 @@
 //         [loadingView removeFromSuperview];
 //    }];
 
-    
-    
-    
-    
-    
-//    NSArray *transactions = [[SKPaymentQueue defaultQueue] transactions];
-//    for(id transaction in transactions){
-//        [[SKPaymentQueue defaultQueue] finishTransaction:transaction];
-//    }
-//    StoreManager *storeManager = [StoreManager sharedManager];
-//    [storeManager restorePurchases];
 }
 
 #pragma mark- Button Action Method.

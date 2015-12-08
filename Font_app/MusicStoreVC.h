@@ -12,8 +12,8 @@
 
 @interface MusicStoreVC : UIViewController  {
     IBOutlet UIView *loadingView;
-    int packIndexPurchased;
-	NSMutableArray		*mMusicInfoArray;
+    int             packIndexPurchased;
+	NSMutableArray  *mMusicInfoArray;
 }
 @property (weak, nonatomic) AddMusicVC					*mParentVC;
 @property (weak, nonatomic) IBOutlet UITableView		*mTableView;

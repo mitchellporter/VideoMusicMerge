@@ -125,30 +125,6 @@
         previewImgView.image = [UIImage imageWithCGImage:[generator copyCGImageAtTime:thumbTime actualTime:NULL error:nil]];
         generator = nil;
         asset = nil;
-//        CMTime thumbTime = CMTimeMakeWithSeconds(0,1);
-//        
-//        //NSLog(@"Starting Async Queue");
-//        
-//        AVAssetImageGeneratorCompletionHandler handler = ^(CMTime requestedTime, CGImageRef im, CMTime actualTime, AVAssetImageGeneratorResult result, NSError *error){
-//            if (result != AVAssetImageGeneratorSucceeded) {
-//                NSLog(@"couldn't generate thumbnail, error:%@", error);
-//            }
-//            
-//            //NSLog(@"Updating UI");
-//            
-//            //Convert CGImage thumbnail to UIImage.
-//            UIImage * thumbnail = [UIImage imageWithCGImage:im];
-//            
-//            int checkSizeW = thumbnail.size.width;
-//            int checkSizeH = thumbnail.size.height;
-//            NSLog(@"Image width is %d", checkSizeW);
-//            NSLog(@"Image height is %d", checkSizeH);
-//            
-//            //Set the image once resized.
-//            previewImgView.image = thumbnail;
-//        };
-//        
-//          [generator generateCGImagesAsynchronouslyForTimes:[NSArray arrayWithObject:[NSValue valueWithCMTime:thumbTime]] completionHandler:handler];
     }];
 }
 

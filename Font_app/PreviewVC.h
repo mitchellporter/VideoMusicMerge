@@ -12,7 +12,7 @@
 	
 }
 
-@property(nonatomic,strong) NSURL							*mURL;
+@property(nonatomic,strong) NSURL *mURL;
 
 - (IBAction)backButtonClicked:(id)sender;
 - (IBAction)previewVideo:(id)sender;

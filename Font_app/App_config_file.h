@@ -2,7 +2,7 @@
 //  App_config_file.h
 //  Font_app
 //
-//  Created by Gurpreet Singh on 23/07/13.
+//  Created by forever on 23/07/13.
 //  Copyright (c) 2013 GS. All rights reserved.
 //
 
