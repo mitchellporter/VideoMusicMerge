@@ -92,9 +92,6 @@
                           cancelButtonTitle:@"OK"
                           otherButtonTitles:nil] show];
     }
-    
-    
-//	[self presentViewController:mediaPicker animated:YES completion:nil];
 
 }
 

@@ -53,12 +53,6 @@
 
 - (IBAction)getStartButtonClicked:(id)sender {
 
-    //push to the HomeVCViewController
-    
-    //debug
-//    AddMusicVC *vc = [[AddMusicVC alloc] init];
-//    [self.navigationController pushViewController:vc animated:YES];
-    //
     
 	HomeVCViewController *vc = [[HomeVCViewController alloc] init];
 	[self.navigationController pushViewController:vc animated:YES];

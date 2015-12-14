@@ -209,13 +209,10 @@
     [self.view addSubview:loadingView];
     //call the restorePurchasesNOw method
     [self restorePurchasesNOw];
-//    [self performSelector:@selector(restorePurchasesNOw) withObject:nil afterDelay:0.02];
 }
 
 - (void)restorePurchasesNOw {
     
-    
-//    [[MKStoreManager sharedManager] restorePreviousTransactionsOnComplete:^{
     
         int restoreCount =0;
         
@@ -241,14 +238,6 @@
    
         
          [loadingView removeFromSuperview];
-        
-//        
-//    } onError:^(NSError *A) {
-//            //unable to process transaction
-//        UIAlertView *newAlertView = [[UIAlertView alloc] initWithTitle:@"Request Error" message:@"Problem in retreiving products from iTunes store"    delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
-//        [newAlertView show];
-//         [loadingView removeFromSuperview];
-//    }];
 
 }
 
