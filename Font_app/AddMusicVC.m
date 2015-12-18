@@ -136,8 +136,6 @@
         self.mURL = [SongItem valueForProperty: MPMediaItemPropertyAssetURL];
         self.mAudioAsset = [AVAsset assetWithURL:self.mURL];
 		[Helper showAlert:@"Message" withMessage:@"Audio loaded successully."];
-//		[self songPlay];
-
     }
     
 	[mediaPicker dismissViewControllerAnimated:YES completion:^{

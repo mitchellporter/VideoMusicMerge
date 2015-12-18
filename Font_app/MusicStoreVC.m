@@ -138,13 +138,7 @@
         [self selectSong:packIndexPurchased];
            return;
     }
-        
-
-    
-
-    //Adding the Loading View
-    
-    
+           
     [self buyItemNumber:packIndexPurchased];
 
 }

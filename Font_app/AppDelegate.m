@@ -132,8 +132,6 @@
     
     [[RateManager sharedManager] showReviewApp];
     
-    
-    
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {     
